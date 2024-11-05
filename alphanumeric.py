@@ -1,22 +1,22 @@
 #checking of a number is alphanumeric or not
 
-class Solution:
-    def isPalindrome(self, s: str) -> bool:
-        newstr=""
-        for c in s:
-            if c.isalnum():
-                newstr+=c.lower()
-        if (newstr==newstr[::-1]):
-            return True
-        return False
+# class Solution:
+#     def isPalindrome(self, s: str) -> bool:
+#         newstr=""
+#         for c in s:
+#             if c.isalnum():
+#                 newstr+=c.lower()
+#         if (newstr==newstr[::-1]):
+#             return True
+#         return False
 
 
 #solution 2
 
 
-class Solution:
+#class Solution:
     
-    def isPalindrome(self, s: str) -> bool:
+    def isPalindrome(str)
         l,r=0,len(s)-1
         while  l<r: 
             while l<r and not self.alphanum(s[l]):
@@ -34,7 +34,8 @@ class Solution:
                      ord('0')<=ord(c)<=ord('9'))
 
 
-
+n=str(input())
+print(isPalindrome(n))
 
 
 
